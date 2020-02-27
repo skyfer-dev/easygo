@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>easyGo</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css1/bootstrap.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css1/bootstrap.min.css" />
+    <link rel="stylesheet" href="css1/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="FontAwesome.oet">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+      <div class="banner">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-3 logo">
+               <div class="row bloc">
+                 <div class="wow">
+                   <div class="col-lg-3 a easy-blue wow zoomInUp" data-wow-duration="2s" id="ea">ea</div>
+                   <div class="col-lg-3 a easy-red wow zoomInDown" data-wow-duration="2s"  data-wow-delay="0.5s" id="sy">sy</div>
+                   <div class="col-lg-3 a easy-green wow swing infinite" data-wow-duration="1s" data-wow-delay="2s" id="go"><span class="animated swing infinite" data-wow-iteration="infinite">Go</span></div>
+                   </div>
+               </div>
+            </div>
+            <div class="col-lg-9 choice">
+              <div class="row">
+                <div class="col-lg-5"></div>
+                <div class="col-lg-2">
+                  <button class="btn btn-lg btn-primary" type="button" name="connecter">Se Connecter</button>
+                </div>
+                <div class="col-lg-2">
+                  <button class="btn btn-lg btn-success" type="button" name="inscription">Inscription</button>
+                </div>
+                <div class="col-lg-3">
+                  <button class="btn btn-lg btn-warning"  type="button" name="trouver">Trouver Un hotel</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper">
+        <nav id="sidebar">
+          <ul class="list-unstyled components">
+            <li class="active"><span class="fa fa-home"></span> Accueil</li>
+            <li>
+              <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" id="action">Categories</a>
+              <ul class="collapse list-unstyled" id="homeSubmenu">
+                <li>
+                  <a href="#" data-toggle="modal" data-target="#add">VIP</a>
+                </li>
+                <li>
+                  <a href="#" data-toggle="modal" data-target="#del">CLASSIQUE</a>
+                </li>
+                <li>
+                  <a href="#" data-toggle="modal" data-target="#update">normal</a>
+                </li>
+              </ul>
+            </li>
+            <li> <a href="#reservation">Mes Reservation</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#blog"><span class="fa fa-phone"></span>Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        new WOW().init();
+      });
+    </script>
+  </body>
+</html>
